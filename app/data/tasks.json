@@ -1,0 +1,808 @@
+{
+    "tasks": [
+        {
+            "id": "b6d94c86-2b1b-f5ba-0134-7677f521dfff",
+            "name": "小ゆび の れんしゅう",
+            "description": "小ゆび で入力するキー の れんしゅうをします。",
+            "instruction": "小ゆび で入力してください",
+            "topics": [
+                {
+                    "title": "1",
+                    "spelling": "1"
+                },
+                {
+                    "title": "Q",
+                    "spelling": "Q"
+                },
+                {
+                    "title": "A",
+                    "spelling": "A"
+                },
+                {
+                    "title": "Z",
+                    "spelling": "Z"
+                },
+                {
+                    "title": "0",
+                    "spelling": "0"
+                },
+                {
+                    "title": "P",
+                    "spelling": "P"
+                }
+            ]
+        },
+        {
+            "id": "95ead009-feb5-795a-332a-ec07de0adce1",
+            "name": "くすりゆび の れんしゅう",
+            "description": "くすりゆび で入力するキー の れんしゅうをします。",
+            "instruction": "くすりゆび で入力してください",
+            "topics": [
+                {
+                    "title": "2",
+                    "spelling": "2"
+                },
+                {
+                    "title": "W",
+                    "spelling": "W"
+                },
+                {
+                    "title": "S",
+                    "spelling": "S"
+                },
+                {
+                    "title": "X",
+                    "spelling": "X"
+                },
+                {
+                    "title": "9",
+                    "spelling": "9"
+                },
+                {
+                    "title": "O",
+                    "spelling": "O"
+                },
+                {
+                    "title": "L",
+                    "spelling": "L"
+                }
+            ]
+        },
+        {
+            "id": "2bb2a6d3-fa01-5e1b-ce36-dafef68b1aa3",
+            "name": "中ゆび の れんしゅう",
+            "description": "中ゆび で入力するキー の れんしゅうをします。",
+            "instruction": "中ゆび で入力してください",
+            "topics": [
+                {
+                    "title": "3",
+                    "spelling": "3"
+                },
+                {
+                    "title": "E",
+                    "spelling": "E"
+                },
+                {
+                    "title": "D",
+                    "spelling": "D"
+                },
+                {
+                    "title": "C",
+                    "spelling": "C"
+                },
+                {
+                    "title": "8",
+                    "spelling": "8"
+                },
+                {
+                    "title": "I",
+                    "spelling": "I"
+                },
+                {
+                    "title": "K",
+                    "spelling": "K"
+                },
+                {
+                    "title": ",",
+                    "spelling": ","
+                }
+            ]
+        },
+        {
+            "id": "5af8969b-ff8c-e602-dcd9-f3982ea33104",
+            "name": "人さしゆび の れんしゅう",
+            "description": "人さしゆび で入力するキー の れんしゅうをします。",
+            "instruction": "人さしゆび で入力してください",
+            "topics": [
+                {
+                    "title": "4",
+                    "spelling": "4"
+                },
+                {
+                    "title": "R",
+                    "spelling": "R"
+                },
+                {
+                    "title": "F",
+                    "spelling": "F"
+                },
+                {
+                    "title": "V",
+                    "spelling": "V"
+                },
+                {
+                    "title": "5",
+                    "spelling": "5"
+                },
+                {
+                    "title": "T",
+                    "spelling": "T"
+                },
+                {
+                    "title": "G",
+                    "spelling": "G"
+                },
+                {
+                    "title": "B",
+                    "spelling": "B"
+                },
+                {
+                    "title": "6",
+                    "spelling": "6"
+                },
+                {
+                    "title": "Y",
+                    "spelling": "Y"
+                },
+                {
+                    "title": "H",
+                    "spelling": "H"
+                },
+                {
+                    "title": "N",
+                    "spelling": "N"
+                },
+                {
+                    "title": "7",
+                    "spelling": "7"
+                },
+                {
+                    "title": "U",
+                    "spelling": "U"
+                },
+                {
+                    "title": "J",
+                    "spelling": "J"
+                },
+                {
+                    "title": "M",
+                    "spelling": "M"
+                }
+            ]
+        },
+        {
+            "id": "25f74722-255b-61de-0de4-7d066a634baf",
+            "name": "あ 行 の れんしゅう",
+            "description": "あ, い, う, え, お の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "あ",
+                    "spelling": "A"
+                },
+                {
+                    "title": "い",
+                    "spelling": "I"
+                },
+                {
+                    "title": "う",
+                    "spelling": "U"
+                },
+                {
+                    "title": "え",
+                    "spelling": "E"
+                },
+                {
+                    "title": "お",
+                    "spelling": "O"
+                }
+            ]
+        },
+        {
+            "id": "a9e035ca-aa16-dbe2-8bcf-9615fcc8949d",
+            "name": "か 行 の れんしゅう",
+            "description": "か, き, く, け, こ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "か",
+                    "spelling": "KA"
+                },
+                {
+                    "title": "き",
+                    "spelling": "KI"
+                },
+                {
+                    "title": "く",
+                    "spelling": "KU"
+                },
+                {
+                    "title": "け",
+                    "spelling": "KE"
+                },
+                {
+                    "title": "こ",
+                    "spelling": "KO"
+                }
+            ]
+        },
+        {
+            "id": "b1e035ca-aa16-dbe2-8bcf-9615fcc8949e",
+            "name": "さ 行 の れんしゅう",
+            "description": "さ, し, す, せ, そ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "さ",
+                    "spelling": "SA"
+                },
+                {
+                    "title": "し",
+                    "spelling": "SHI"
+                },
+                {
+                    "title": "す",
+                    "spelling": "SU"
+                },
+                {
+                    "title": "せ",
+                    "spelling": "SE"
+                },
+                {
+                    "title": "そ",
+                    "spelling": "SO"
+                }
+            ]
+        },
+        {
+            "id": "c2e035ca-aa16-dbe2-8bcf-9615fcc8949f",
+            "name": "た 行 の れんしゅう",
+            "description": "た, ち, つ, て, と の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "た",
+                    "spelling": "TA"
+                },
+                {
+                    "title": "ち",
+                    "spelling": "CHI"
+                },
+                {
+                    "title": "つ",
+                    "spelling": "TSU"
+                },
+                {
+                    "title": "て",
+                    "spelling": "TE"
+                },
+                {
+                    "title": "と",
+                    "spelling": "TO"
+                }
+            ]
+        },
+        {
+            "id": "d3e035ca-aa16-dbe2-8bcf-9615fcc8949g",
+            "name": "な 行 の れんしゅう",
+            "description": "な, に, ぬ, ね, の の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "な",
+                    "spelling": "NA"
+                },
+                {
+                    "title": "に",
+                    "spelling": "NI"
+                },
+                {
+                    "title": "ぬ",
+                    "spelling": "NU"
+                },
+                {
+                    "title": "ね",
+                    "spelling": "NE"
+                },
+                {
+                    "title": "の",
+                    "spelling": "NO"
+                }
+            ]
+        },
+        {
+            "id": "e4e035ca-aa16-dbe2-8bcf-9615fcc8949h",
+            "name": "は 行 の れんしゅう",
+            "description": "は, ひ, ふ, へ, ほ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "は",
+                    "spelling": "HA"
+                },
+                {
+                    "title": "ひ",
+                    "spelling": "HI"
+                },
+                {
+                    "title": "ふ",
+                    "spelling": "FU"
+                },
+                {
+                    "title": "へ",
+                    "spelling": "HE"
+                },
+                {
+                    "title": "ほ",
+                    "spelling": "HO"
+                }
+            ]
+        },
+        {
+            "id": "f5e035ca-aa16-dbe2-8bcf-9615fcc8949i",
+            "name": "ま 行 の れんしゅう",
+            "description": "ま, み, む, め, も の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "ま",
+                    "spelling": "MA"
+                },
+                {
+                    "title": "み",
+                    "spelling": "MI"
+                },
+                {
+                    "title": "む",
+                    "spelling": "MU"
+                },
+                {
+                    "title": "め",
+                    "spelling": "ME"
+                },
+                {
+                    "title": "も",
+                    "spelling": "MO"
+                }
+            ]
+        },
+        {
+            "id": "g6e035ca-aa16-dbe2-8bcf-9615fcc8949j",
+            "name": "や 行 の れんしゅう",
+            "description": "や, ゆ, よ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "や",
+                    "spelling": "YA"
+                },
+                {
+                    "title": "ゆ",
+                    "spelling": "YU"
+                },
+                {
+                    "title": "よ",
+                    "spelling": "YO"
+                }
+            ]
+        },
+        {
+            "id": "h7e035ca-aa16-dbe2-8bcf-9615fcc8949k",
+            "name": "ら 行 の れんしゅう",
+            "description": "ら, り, る, れ, ろ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "ら",
+                    "spelling": "RA"
+                },
+                {
+                    "title": "り",
+                    "spelling": "RI"
+                },
+                {
+                    "title": "る",
+                    "spelling": "RU"
+                },
+                {
+                    "title": "れ",
+                    "spelling": "RE"
+                },
+                {
+                    "title": "ろ",
+                    "spelling": "RO"
+                }
+            ]
+        },
+        {
+            "id": "i8e035ca-aa16-dbe2-8bcf-9615fcc8949l",
+            "name": "わ 行 の れんしゅう",
+            "description": "わ, を, ん の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "わ",
+                    "spelling": "WA"
+                },
+                {
+                    "title": "を",
+                    "spelling": "WO"
+                },
+                {
+                    "title": "ん",
+                    "spelling": "N"
+                }
+            ]
+        },
+        {
+            "id": "j9e035ca-aa16-dbe2-8bcf-9615fcc8949m",
+            "name": "が 行 の れんしゅう",
+            "description": "が, ぎ, ぐ, げ, ご の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "が",
+                    "spelling": "GA"
+                },
+                {
+                    "title": "ぎ",
+                    "spelling": "GI"
+                },
+                {
+                    "title": "ぐ",
+                    "spelling": "GU"
+                },
+                {
+                    "title": "げ",
+                    "spelling": "GE"
+                },
+                {
+                    "title": "ご",
+                    "spelling": "GO"
+                }
+            ]
+        },
+        {
+            "id": "k0e035ca-aa16-dbe2-8bcf-9615fcc8949n",
+            "name": "ざ 行 の れんしゅう",
+            "description": "ざ, じ, ず, ぜ, ぞ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "ざ",
+                    "spelling": "ZA"
+                },
+                {
+                    "title": "じ",
+                    "spelling": "JI"
+                },
+                {
+                    "title": "ず",
+                    "spelling": "ZU"
+                },
+                {
+                    "title": "ぜ",
+                    "spelling": "ZE"
+                },
+                {
+                    "title": "ぞ",
+                    "spelling": "ZO"
+                }
+            ]
+        },
+        {
+            "id": "l1e035ca-aa16-dbe2-8bcf-9615fcc8949o",
+            "name": "だ 行 の れんしゅう",
+            "description": "だ, ぢ, づ, で, ど の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "だ",
+                    "spelling": "DA"
+                },
+                {
+                    "title": "ぢ",
+                    "spelling": "JI"
+                },
+                {
+                    "title": "づ",
+                    "spelling": "ZU"
+                },
+                {
+                    "title": "で",
+                    "spelling": "DE"
+                },
+                {
+                    "title": "ど",
+                    "spelling": "DO"
+                }
+            ]
+        },
+        {
+            "id": "m2e035ca-aa16-dbe2-8bcf-9615fcc8949p",
+            "name": "ば 行 の れんしゅう",
+            "description": "ば, び, ぶ, べ, ぼ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "ば",
+                    "spelling": "BA"
+                },
+                {
+                    "title": "び",
+                    "spelling": "BI"
+                },
+                {
+                    "title": "ぶ",
+                    "spelling": "BU"
+                },
+                {
+                    "title": "べ",
+                    "spelling": "BE"
+                },
+                {
+                    "title": "ぼ",
+                    "spelling": "BO"
+                }
+            ]
+        },
+        {
+            "id": "n3e035ca-aa16-dbe2-8bcf-9615fcc8949q",
+            "name": "ぱ 行 の れんしゅう",
+            "description": "ぱ, ぴ, ぷ, ぺ, ぽ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "ぱ",
+                    "spelling": "PA"
+                },
+                {
+                    "title": "ぴ",
+                    "spelling": "PI"
+                },
+                {
+                    "title": "ぷ",
+                    "spelling": "PU"
+                },
+                {
+                    "title": "ぺ",
+                    "spelling": "PE"
+                },
+                {
+                    "title": "ぽ",
+                    "spelling": "PO"
+                }
+            ]
+        },
+        {
+            "id": "r7e035ca-aa16-dbe2-8bcf-9615fcc8949u",
+            "name": "きゃ 行 の れんしゅう",
+            "description": "きゃ, きゅ, きょ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "きゃ",
+                    "spelling": "KYA"
+                },
+                {
+                    "title": "きゅ",
+                    "spelling": "KYU"
+                },
+                {
+                    "title": "きょ",
+                    "spelling": "KYO"
+                }
+            ]
+        },
+        {
+            "id": "p5e035ca-aa16-dbe2-8bcf-9615fcc8949s",
+            "name": "しゃ 行 の れんしゅう",
+            "description": "しゃ, しゅ, しょ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "しゃ",
+                    "spelling": "SHA"
+                },
+                {
+                    "title": "しゅ",
+                    "spelling": "SHU"
+                },
+                {
+                    "title": "しょ",
+                    "spelling": "SHO"
+                }
+            ]
+        },
+        {
+            "id": "o4e035ca-aa16-dbe2-8bcf-9615fcc8949r",
+            "name": "ちゃ 行 の れんしゅう",
+            "description": "ちゃ, ちゅ, ちょ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "ちゃ",
+                    "spelling": "CHA"
+                },
+                {
+                    "title": "ちゅ",
+                    "spelling": "CHU"
+                },
+                {
+                    "title": "ちょ",
+                    "spelling": "CHO"
+                }
+            ]
+        },
+        {
+            "id": "s8e035ca-aa16-dbe2-8bcf-9615fcc8949v",
+            "name": "にゃ 行 の れんしゅう",
+            "description": "にゃ, にゅ, にょ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "にゃ",
+                    "spelling": "NYA"
+                },
+                {
+                    "title": "にゅ",
+                    "spelling": "NYU"
+                },
+                {
+                    "title": "にょ",
+                    "spelling": "NYO"
+                }
+            ]
+        },
+        {
+            "id": "t9e035ca-aa16-dbe2-8bcf-9615fcc8949w",
+            "name": "ひゃ 行 の れんしゅう",
+            "description": "ひゃ, ひゅ, ひょ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "ひゃ",
+                    "spelling": "HYA"
+                },
+                {
+                    "title": "ひゅ",
+                    "spelling": "HYU"
+                },
+                {
+                    "title": "ひょ",
+                    "spelling": "HYO"
+                }
+            ]
+        },
+        {
+            "id": "u0e035ca-aa16-dbe2-8bcf-9615fcc8949x",
+            "name": "みゃ 行 の れんしゅう",
+            "description": "みゃ, みゅ, みょ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "みゃ",
+                    "spelling": "MYA"
+                },
+                {
+                    "title": "みゅ",
+                    "spelling": "MYU"
+                },
+                {
+                    "title": "みょ",
+                    "spelling": "MYO"
+                }
+            ]
+        },
+        {
+            "id": "v1e035ca-aa16-dbe2-8bcf-9615fcc8949y",
+            "name": "りゃ 行 の れんしゅう",
+            "description": "りゃ, りゅ, りょ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "りゃ",
+                    "spelling": "RYA"
+                },
+                {
+                    "title": "りゅ",
+                    "spelling": "RYU"
+                },
+                {
+                    "title": "りょ",
+                    "spelling": "RYO"
+                }
+            ]
+        },
+        {
+            "id": "w2e035ca-aa16-dbe2-8bcf-9615fcc8949z",
+            "name": "ぎゃ 行 の れんしゅう",
+            "description": "ぎゃ, ぎゅ, ぎょ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "ぎゃ",
+                    "spelling": "GYA"
+                },
+                {
+                    "title": "ぎゅ",
+                    "spelling": "GYU"
+                },
+                {
+                    "title": "ぎょ",
+                    "spelling": "GYO"
+                }
+            ]
+        },
+        {
+            "id": "x3e035ca-aa16-dbe2-8bcf-9615fcc8949aa",
+            "name": "じゃ 行 の れんしゅう",
+            "description": "じゃ, じゅ, じょ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "じゃ",
+                    "spelling": "JA"
+                },
+                {
+                    "title": "じゅ",
+                    "spelling": "JU"
+                },
+                {
+                    "title": "じょ",
+                    "spelling": "JO"
+                }
+            ]
+        },
+        {
+            "id": "y4e035ca-aa16-dbe2-8bcf-9615fcc8949ab",
+            "name": "びゃ 行 の れんしゅう",
+            "description": "びゃ, びゅ, びょ の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "びゃ",
+                    "spelling": "BYA"
+                },
+                {
+                    "title": "びゅ",
+                    "spelling": "BYU"
+                },
+                {
+                    "title": "びょ",
+                    "spelling": "BYO"
+                }
+            ]
+        },
+        {
+            "id": "z5e035ca-aa16-dbe2-8bcf-9615fcc8949ac",
+            "name": "ぴゃ 行 の れんしゅう",
+            "description": "ぴゃ, ぴゅ, ぴょ  の れんしゅうをします。",
+            "instruction": "ローマ字で入力してください",
+            "topics": [
+                {
+                    "title": "ぴゃ",
+                    "spelling": "PYA"
+                },
+                {
+                    "title": "ぴゅ",
+                    "spelling": "PYU"
+                },
+                {
+                    "title": "ぴょ",
+                    "spelling": "PYO"
+                }
+            ]
+        }
+    ]
+}

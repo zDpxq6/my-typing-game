@@ -1,0 +1,36 @@
+.button {
+  margin: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrap {
+  margin-top: 0;
+}
+
+#side {
+  width: 15%;
+  float: left;
+  height: calc((100vh - 1.5em) * 0.9);
+}
+
+#main {
+  background-color: blue;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#footer {
+  /* background-color: yellow; */
+  clear: both;
+  height: 1.5em;
+  text-align: center;
+}

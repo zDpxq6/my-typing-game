@@ -6,8 +6,11 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
+import { SettingsProvider } from "~/components/hooks/UseSettings";
+import { CssBaseline, ThemeProvider } from "@mui/material";
+import theme from "./theme/theme";
 
-import "./tailwind.css";
+import "~/styles.css";
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -24,7 +27,7 @@ export const links: LinksFunction = () => [
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,16 +35,28 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
-        <ScrollRestoration />
-        <Scripts />
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          {children}
+          <ScrollRestoration />
+          <Scripts />
+        </ThemeProvider>
       </body>
     </html>
   );
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <div id="wrap">
+      <SettingsProvider>
+        <Outlet />
+      </SettingsProvider>
+      <div id="footer">
+        <p id="copyright">© zDpxq6, 2024</p>
+      </div>
+    </div>
+  );
 }
 
 export function HydrateFallback() {

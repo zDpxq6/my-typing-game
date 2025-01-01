@@ -4,11 +4,13 @@ import Button from "@mui/material/Button";
 
 interface InitialViewProps {
   onSelectingTaskClick: () => void;
+  onSignUpClick: () => void;
   onSettingsClick: () => void;
 }
 
 export const InitialView = ({
   onSelectingTaskClick,
+  onSignUpClick,
   onSettingsClick,
 }: InitialViewProps) => {
   return (
@@ -20,6 +22,9 @@ export const InitialView = ({
       <div className={classes.buttonContainer}>
         <Button className="button" disabled={true}>
           ログイン
+        </Button>
+        <Button className="button" onClick={onSignUpClick}>
+          サインアップ
         </Button>
         <Button className="button" onClick={onSelectingTaskClick}>
           もんだいをえらぶ

@@ -12,6 +12,7 @@ declare module "@remix-run/node" {
 
 export default defineConfig({
   base: "/my-typing-game/",
+  envPrefix: "REACT_APP_", // REACT_APP_ で始まる環境変数を公開
   plugins: [
     remix({
       ssr: false,

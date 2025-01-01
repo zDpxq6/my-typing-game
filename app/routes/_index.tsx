@@ -6,6 +6,7 @@ import ResultView from "~/components/templates/ResultView";
 import { ResultType } from "~/types/ResultType";
 import SettingsView from "~/components/templates/SettingsView";
 import CountdownView from "~/components/templates/CountdownView";
+import SignUpView from "~/components/templates/sign-up-view";
 
 import type { MetaFunction } from "@remix-run/node";
 
@@ -36,12 +37,17 @@ export const Index = () => {
             // 設定画面に遷移するボタンを押したときの挙動
             setCurrentScreen("settings");
           }}
+          onSignUpClick={() => {
+            // タスク選択画面に遷移するボタンを押したときの挙動
+            setCurrentScreen("sign-up");
+          }}
           onSelectingTaskClick={() => {
             // タスク選択画面に遷移するボタンを押したときの挙動
             setCurrentScreen("select");
           }}
         />
       )}
+      {currentScreen === "sign-up" && <SignUpView />}
       {currentScreen === "settings" && (
         <SettingsView
           onBackClick={() => {

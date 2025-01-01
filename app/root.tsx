@@ -8,7 +8,6 @@ import {
 import type { LinksFunction } from "@remix-run/node";
 import { SettingsProvider } from "~/components/hooks/UseSettings";
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import theme from "./theme/theme";
 
 import "~/styles.css";
 
@@ -35,12 +34,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          {children}
-          <ScrollRestoration />
-          <Scripts />
-        </ThemeProvider>
+        {children}
+        <ScrollRestoration />
+        <Scripts />
       </body>
     </html>
   );

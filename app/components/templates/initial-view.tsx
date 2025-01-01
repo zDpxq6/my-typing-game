@@ -1,6 +1,5 @@
 import Title from "~/components/atoms/title";
 import classes from "./initial-view.module.css";
-import Button from "@mui/material/Button";
 
 interface InitialViewProps {
   onSelectingTaskClick: () => void;
@@ -15,20 +14,20 @@ export const InitialView = ({
 }: InitialViewProps) => {
   return (
     <div>
-      <Button className="button" onClick={onSettingsClick}>
+      <button className="button" onClick={onSettingsClick}>
         せってい
-      </Button>
+      </button>
       <Title>スタートがめん</Title>
       <div className={classes.buttonContainer}>
-        <Button className="button" disabled={true}>
+        <button className="button" disabled={true}>
           ログイン
-        </Button>
-        <Button className="button" onClick={onSignUpClick}>
+        </button>
+        <button className="button" onClick={onSignUpClick}>
           サインアップ
-        </Button>
-        <Button className="button" onClick={onSelectingTaskClick}>
+        </button>
+        <button className="button" onClick={onSelectingTaskClick}>
           もんだいをえらぶ
-        </Button>
+        </button>
       </div>
     </div>
   );

@@ -7,7 +7,6 @@ import {
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
 import { SettingsProvider } from "~/components/hooks/UseSettings";
-import { CssBaseline, ThemeProvider } from "@mui/material";
 
 import "~/styles.css";
 
